@@ -9,25 +9,35 @@
 <body>
     <h1>Rock Paper Scissor Game</h1>
     <div class="container">
-        <div class="choice">
-            <img src = "./images/paper.png">
+        <div class="choice" id="paper">
+            <img src="./images/paper.png">
         </div>
-        <div class="choice">
-            <img src = "./images/rock.png">
+        <div class="choice" id="rock">
+            <img src="./images/rock.png">
         </div>
-        <div class="choice">
-            <img src = "./images/scissor.png">
+        <div class="choice" id="scissor">
+            <img src="./images/scissor.png">
         </div>
     </div>
-    <div class="msg">
+    <div class="score-board">
         <div class="score">
-            <div class="userScore">0</div>
+            <p id="userScore">0</p>
             <p>You</p>
-            <div class="comScore">0</div>
-            <p>Comp</p>
-
-            <div class="msg-box">Play</div>
         </div>
+        <div class="score">
+            <p id="comScore">0</p>
+            <p>Comp</p>
+        </div>
+         <div class="move">
+            <p id="total-move">0</p>
+            <p>Total move</p>
+        </div>
+       
     </div>
+    <div class="msg-container">
+     <div class="msg">Play Game</div>
+     <div class="reset">Reset</div>
+     </div>
+     <script src="script.js"></script>
 </body>
 </html>

@@ -7,7 +7,72 @@
 body{
     background-color:#C6E5D9 ;
 }
-
+h1{
+    background-color: #D3643B;
+    height : 5rem;
+    line-height: 5rem;
+    color: white;
+}
 .container{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap : 3rem;
+    margin-top: 5rem;
+}
+.choice{
+    height : 160px;
+    width : 160px;
+    border-radius: 50%;
+    display : flex ;
+    justify-content: center;
+    align-items: center;    
     
+}
+.choice:hover{
+    background-color: #80D0C7;
+    cursor : pointer;
+    
+}
+
+img{
+    height : 140px;
+    width : 140px;
+    object-fit: cover;
+    border-radius:50%;
+    
+}
+
+.score-board{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap : 5rem;
+    margin-top : 5rem;
+}
+#userScore , #comScore , #total-move{
+    font-size: 4rem;
+}
+.msg-container{
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap :4rem;
+}
+.msg , .reset{
+
+    font-size: 2rem;
+    background-color: #4B000F;
+    color : white;
+    display : inline-block;
+   padding: 1rem;
+   border-radius: 1rem;
+}
+.reset{
+    background-color: #505285;
+}
+.reset:hover , .msg:hover{
+    cursor : pointer;
 }
